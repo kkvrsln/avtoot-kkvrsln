@@ -1,5 +1,5 @@
 main = {
-    "token" : "f7e9ec6b4a6926b7442c02bef7c73eb36cc39f63bbf72bdf67fd6c5a2e969c8ce7ecaeb8608f65c2e0e6f",
+    "token" : "67c0425d11edb2d9af8510f30b6a9a4089a5157a7019f9f7588e2dfb7e81cb5ea05cb3e6797166be0c6b9",
 }
 
 otvets = {
