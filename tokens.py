@@ -5,5 +5,6 @@ main = {
 otvets = {
     "привет" : "Sticker 60272",
     "!k" : "Меню: \n!k1 - Развлекательные сигналы \n!k2 - Я Воркер \n!k3 - Я Заказчик \n!k4 - INFO",
+    "!k2" : "Заполните форму: \n \nyt",
     "!k4" : "Bot Name: Tvorec Bot \nVersion: 1.0 \n ©kkvrsln"
 }
