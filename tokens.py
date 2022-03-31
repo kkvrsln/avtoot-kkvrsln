@@ -4,6 +4,6 @@ main = {
 
 otvets = {
     "привет" : "Ну привет",
-    "kkv" : "Bot: tvorec \n Version:1.0 \n ©kkvrsln",
+    "kkv" : "Bot name: tvorec bot \n Version: 1.0 \n ©kkvrsln",
     "стик" : "Sticker 60272"
 }
