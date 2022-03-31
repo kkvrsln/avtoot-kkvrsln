@@ -1,10 +1,9 @@
 main = {
-    "token" : "636003bbc493eb306bb1e83b0fa0f338b717ba64f3c8243045a726354310f226aa48e2c9cfeb049b243a9",
+    "token" : "5f3bdfc14eafb3312324e27727b4f27d6f991ed5a0a0d764f9856f31ab6371990f97e4f537766c289b69f",
 }
 
 otvets = {
-    "привет" : "Ну привет",
-    "ккв" : "vi:1.0 ©kkvrsln",
-    "стик" : "Sticker 126"
-    "стик2" : "Sticker 1260"
+    "Привет" : "Ну привет",
+    "kkv" : "vi:1.0 ©kkvrsln",
+    "Стик" : "Sticker 126"
 }
