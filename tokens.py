@@ -1,5 +1,5 @@
 main = {
-    "token" : "67c0425d11edb2d9af8510f30b6a9a4089a5157a7019f9f7588e2dfb7e81cb5ea05cb3e6797166be0c6b9",
+    "token" : "vk1.a.YxrKyZY7hDeU37-F8eDVU4e1ulgI9ZAtcYLEIhY5WcXxmeiYWhZREu0ESC-lHrFfb1hdXbInyVWVuf4Ef7JWbSBR8S8bx2ZSM-3Hlu153lJpKlzkzMzeAgA-ee2rjCW4fgAmW3Xf0JgD9SL-fQenqtT-qTlhzGFGS-38dGZB0M4xhwo3JVFPI4mEnj8xHYLH",
 }
 
 otvets = {
