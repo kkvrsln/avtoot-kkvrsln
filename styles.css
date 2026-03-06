@@ -260,31 +260,6 @@ p {
   width: 100%;
 }
 
-.quote-form {
-  display: grid;
-  gap: 12px;
-}
-
-label {
-  display: grid;
-  gap: 7px;
-}
-
-label span {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-input,
-textarea {
-  background: rgba(0, 0, 0, 0.28);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  color: var(--text);
-  padding: 11px 12px;
-  font: inherit;
-}
-
 .section {
   padding: 74px 0 0;
 }
@@ -315,6 +290,55 @@ textarea {
   padding: 22px;
 }
 
+
+.service-card,
+.benefit {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.04));
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card::before,
+.benefit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(93, 226, 255, 0.12), rgba(160, 102, 255, 0.08));
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.service-card:hover,
+.benefit:hover {
+  transform: translateY(-4px);
+  border-color: rgba(93, 226, 255, 0.45);
+  box-shadow: 0 16px 45px rgba(42, 180, 255, 0.18);
+}
+
+.service-card:hover::before,
+.benefit:hover::before {
+  opacity: 1;
+}
+
+.service-card > *,
+.benefit > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  background: rgba(93, 226, 255, 0.16);
+  border: 1px solid rgba(93, 226, 255, 0.32);
+}
+
 .service-card p,
 .price-card ul,
 .cta p {
@@ -327,7 +351,21 @@ textarea {
 }
 
 .benefit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 600;
+}
+
+.benefit span {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  background: rgba(160, 102, 255, 0.15);
+  border: 1px solid rgba(160, 102, 255, 0.35);
 }
 
 .pricing {
