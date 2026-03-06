@@ -167,7 +167,7 @@ p {
   color: var(--muted);
   font-size: 1.06rem;
   max-width: 62ch;
-  margin-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .hero__stats {
@@ -423,7 +423,7 @@ p {
   }
 
   .hero__subtitle {
-    margin-bottom: 48px;
+    margin-bottom: 36px;
   }
 
 
