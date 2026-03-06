@@ -167,6 +167,7 @@ p {
   color: var(--muted);
   font-size: 1.06rem;
   max-width: 62ch;
+  margin-bottom: 120px;
 }
 
 .hero__stats {
@@ -367,7 +368,8 @@ p {
 
 .old-price {
   margin-left: 8px;
-  font-size: 1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
   color: var(--muted);
   text-decoration: line-through;
   text-decoration-thickness: 2px;
@@ -418,6 +420,10 @@ p {
 
   .logo {
     flex: 1 1 auto;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 48px;
   }
 
 
